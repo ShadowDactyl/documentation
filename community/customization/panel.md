@@ -4,14 +4,14 @@
 Do **not** run the following steps on your production nodes.
 :::
 
-Instructions on how to build the panel are also available in the [BUILDING.md](https://github.com/pterodactyl/panel/blob/1.0-develop/BUILDING.md) file.
+Instructions on how to build the panel are also available in the [BUILDING.md](https://github.com/shadowdactyl/panel/blob/1.0-develop/BUILDING.md) file.
 
 The frontend of the Panel is built with React. Any changes to the source files require to recompile it.
 This also applies to style sheets. The following sections explain how to do so.
 
 ## Install Dependencies
 
-The following commands will install the necessary dependencies for building the Panel assets.
+The following commands will install the necessary dependencies for building the Shadowdactyl Panel assets.
 
 The build tools require NodeJS, yarn is used as the package manager.
 
@@ -31,7 +31,7 @@ Install required javascript packages.
 ```bash
 npm i -g yarn # Install Yarn
 
-cd /var/www/pterodactyl
+cd /var/www/shadowdactyl
 yarn # Installs panel build dependencies
 ```
 
@@ -40,9 +40,9 @@ yarn # Installs panel build dependencies
 The following command will rebuild the Panel frontend. For NodeJS version 17 and above, you must enable the `--openssl-legacy-provider` option before building.
 
 ```bash
-cd /var/www/pterodactyl
+cd /var/www/shadowdactyl
 export NODE_OPTIONS=--openssl-legacy-provider # for NodeJS v17+
 yarn build:production # Build panel
 ```
 
-You can use command `yarn run watch` to view the progress of your changes in almost real-time for easier development. Once you're satisfied with your changes build the panel using the previously mentioned `yarn build:production` command. 
+You can use command `yarn run watch` to view the progress of your changes in almost real-time for easier development. Once you're satisfied with your changes build the Shadowdactyl panel using the previously mentioned `yarn build:production` command. 
