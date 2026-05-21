@@ -1,5 +1,5 @@
 # Enterprise Linux 8 and Fedora Server 40
-This guide provides comprehensive instructions for installing Pterodactyl Wings v1.X on CentOS 8, Rocky Linux 8, AlmaLinux 8 and Fedora Server 40.
+This guide provides comprehensive instructions for installing Shadowdactyl Wings v1.X on CentOS 8, Rocky Linux 8, AlmaLinux 8 and Fedora Server 40.
 
 [[toc]]
 
