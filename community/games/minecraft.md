@@ -63,15 +63,15 @@ The following commands will allow any server on the node to access the opened po
 
 #### UFW (Ubuntu)
 
-Allow access to the pterodactyl pterodactyl0 network on a specific port.
+Allow access to the shadowdactyl shadowdactyl network on a specific port.
 
 ``` bash
-ufw allow in on pterodactyl0 to 172.18.0.1 port <LOCALHOST_PORT> proto tcp
+ufw allow in on shadowdactyl0 to 172.18.0.1 port <LOCALHOST_PORT> proto tcp
 ```
 
 #### Firewalld (CentOS)
 
-Allow access to pterodactyl0 from the pterodactyl0 network.
+Allow access to shadowdactyl0 from the pterodactyl0 network.
 
 :::warning
 This command will allow any server to access all other servers as well as all ports on the node.
